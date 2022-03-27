@@ -11,6 +11,7 @@
   inputs.src-ffpass-master.ref   = "refs/heads/master";
   inputs.src-ffpass-master.owner = "bunkford";
   inputs.src-ffpass-master.repo  = "ffpass";
+  inputs.src-ffpass-master.dir   = "";
   inputs.src-ffpass-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
