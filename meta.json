@@ -8,39 +8,8 @@
   "web": "https://github.com/bunkford/ffpass",
   "doc": "https://bunkford.github.io/ffpass/docs/ffpass.html",
   "refs": [
-    "refs/heads/master",
+    "fatal: unable to access 'https://github.com/bunkford/ffpass/': Could not resolve host: github.com",
     ""
   ],
-  "heads": [
-    {
-      "name": "ffpass",
-      "version": "1.0.1",
-      "author": "Duncan Clarke",
-      "desc": "ffpass - Api Calls for Ford vehicles equipped with the fordpass app.",
-      "license": "MIT",
-      "skipDirs": [
-        "docs"
-      ],
-      "skipFiles": [],
-      "skipExt": [],
-      "installDirs": [],
-      "installFiles": [],
-      "installExt": [],
-      "requires": [
-        {
-          "name": "nim",
-          "str": ">= 1.2.0",
-          "ver": {
-            "kind": "verEqLater",
-            "ver": "1.2.0"
-          }
-        }
-      ],
-      "bin": [],
-      "binDir": "",
-      "srcDir": "",
-      "backend": "c",
-      "ref": "refs/heads/master"
-    }
-  ]
+  "heads": []
 }
